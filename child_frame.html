@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script>
+        var a = 0;
+        function normal() {
+            a++;
+            alert("hello" + a);}
+
+        function badOne() {
+            alert(a + b);
+        }
+    </script>
+</head>
+<body>
+hello world
+<button onclick="normal()">Normal Button</button>
+<button onclick="badOne()">Bad Button</button>
+</body>
+</html>
